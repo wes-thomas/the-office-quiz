@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Office quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    </head>
+        <body>
+            <header class="main-header">
+                <h1>The Office Quiz</h1>
+                <h2>A quiz about a show</h2>
+            </header>
+ 
+            <div class="primary-content">
+                <p><span class="number">1</span class="number"> Who is the receptionist in the first season of The Office?</p>
+                <input type="text" id="question1" placeholder="Enter answer here">
+                <span id="question1Error" class="error"></span>
+                <p><span class="number">2</span> Michael Scott is the Regional Manager of which Dunder Mifflin Paper Company branch?</p>
+                <input type="text" id="question2" placeholder="Hint: It's a small town in Pennsylvania">
+                <span id="question2Error" class="error"></span>
+                <p><span class="number">3</span> What is the name of the only female in the Accounting department?</p>
+                <input type="text" id="question3" placeholder="Hint: she likes cats">
+                <span id="question3Error" class="error"></span>
+                <p><span class="number">4</span> Who is Assistant <b><i>to the</i></b> Regional Manager?</p>
+                <input type="text" id="question4" placeholder="Hint: He really wants to use white-out on his business cards">
+                <span id="question4Error" class="error"></span>
+                <p><span class="number">5</span> What is Dwight K. Schrute's middle name?</p>
+                <input type="text" id="question5" placeholder="Hint: It's not &quot;danger&quot; like Dwight claims">
+                <span id="question5Error" class="error"></span>
+                <p><span class="number">6</span> Which character makes chili each year for the office from a family recipe?</p>
+                <input type="text" id="question6" placeholder="Hint: Just hope they don't spill it on the way in">
+                <span id="question6Error" class="error"></span>
+                <p><span class="number">7</span> What is one of Andy Bernard’s nicknames?</p>
+                <input type="text" id="question7" placeholder="&quot;New guys sucks... Calls me the Nard Man&quot;">
+                <span id="question7Error" class="error"></span>
+                <p><span class="number">8</span> What crop is most grown at Schrute Farms?</p>
+                <input type="text" id="question8" placeholder="Hint: It's not known for its annual hemp yield">
+                <span id="question8Error" class="error"></span>
+                <p><span class="number">9</span> Who owns the refrigeration company next to Dunder Mifflin?</p>
+                <input type="text" id="question9" placeholder="&quot;So, what line of work are you in?&quot;">
+                <span id="question9Error" class="error"></span>
+                <p><span class="number">10</span> What is Jan's Executive Assistant's name?</p>
+                <input type="text" id="question10" placeholder="🎶&quot;That one niiiight you made everything alriiiight&quot;🎶">
+                <span id="question10Error" class="error"></span>
+                <br>
+                <button type="submit" id="submitbutton" class="submit-button">Submit</button>
+                <p id="grade" class="end-grade"></p>
+                <p id="grade2" class="end-grade2"></p>
+                <p id="results" class="end-results"></p>
+            </div>
+            <footer class="main-footer">
+                <p>First Thing Wes Ever Made, LLC.</p>
+                <a href="#top">Back to top &raquo;</a>
+            </footer>
+        </body>
+    <script src="quiz.js"></script>
+</html>
